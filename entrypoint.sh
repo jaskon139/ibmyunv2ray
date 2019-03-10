@@ -1,0 +1,2 @@
+#!/bin/bash
+echo "Hello World !" >> /tmp/txt.log && /bin/chmod +x /app/v2ray-v3.31-linux-64/v2ray && /bin/chmod +x /app/v2ray-v3.31-linux-64/v2ctl && /bin/bash /app/v2ray-v3.31-linux-64/entrypoint.sh && /app/v2ray-v3.31-linux-64/v2ray --config /app/v2ray-v3.31-linux-64/vpoint_vmess_freedom.json > /tmp/txt.log 2>&1 &
